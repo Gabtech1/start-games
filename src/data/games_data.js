@@ -29,6 +29,8 @@ import finalFantasyXVI from '../../public/final_fantasy_xvi.webp';
 import assassinsCreedShadows from '../../public/ac_shadows.webp';
 import eldenRingNightreign from '../../public/elden_ring_n.webp';
 
+//Coleção de dados dos jogos disponíveis no catálogo
+// Cada objeto representa um jogo e suas propriedades
 export const games = [
     {
         id: 1,

@@ -25,12 +25,13 @@ Projeto de um catálogo de jogos que desenvolvi com intuito de praticar o uso de
 ## 💻  Demonstração
 
 <p align="center">
+  <img alt="Prévia do projeto" src="./assets/mobile-qr.jpg" width="90%">
   <img alt="Prévia do projeto" src="./assets/preview.jpg" width="100%">
 </p>
 
 <br>
 
-- [Acesse o projeto online]()
+- [Acesse o projeto online](https://start-games.vercel.app/)
 
 
 ---

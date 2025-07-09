@@ -4,6 +4,7 @@ import { FaXbox, FaPlaystation } from "react-icons/fa6";
 
 export default function Cards({ image, name, category, description, platform, price }) {
 
+    //Objeto para mapear os ícones das plataformas
     const iconMap = {
         Xbox: <FaXbox size={20} color="#0F780F" />,
         Playstation: <FaPlaystation size={20} color="#003E93" />

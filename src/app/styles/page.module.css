@@ -21,7 +21,7 @@
   color: #504F9D;
   font-size: 2rem;
   font-weight: 500;
-  margin-top: 20px;
+  margin: 20px 0 10px 0;
   text-align: center;
   text-shadow: 2px 2px 4px #c66461;
 }
@@ -35,13 +35,6 @@
   margin: 0 auto;
 }
 
-.main h2{
-  text-align: center;
-  color: #504F9D;
-  text-shadow: 2px 2px 4px #c66461;
-  font-size: 1.5rem;
-}
-
 .cards{
   width: 100%;
   margin: 0 auto;
@@ -49,4 +42,23 @@
   display: flex;
   flex-wrap: wrap;
   gap: 10px;
+}
+
+/* Media queries */
+@media (max-width: 1050px){
+  .page{
+    padding: 0 0 60px 0;
+  }
+}
+
+@media (max-width: 800px){
+  .description{
+    font-size: 1.4rem;
+  }
+}
+
+@media (max-width: 400px){
+  .description{
+    font-size: 1.1rem;
+  }
 }

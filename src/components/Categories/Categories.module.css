@@ -1,0 +1,31 @@
+.categories{
+    display: flex;
+    max-width: 1024px;
+    margin: 0 auto;
+    margin-top: 10px;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+.btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    gap: 7px;
+    background: #fff;
+    border: 1px solid #c66461;
+    border-radius: 7px;
+    color: #c66461;
+    cursor: pointer;
+    font-size: 0.9rem;
+    padding: 7px 12px;
+    transition: background 0.3s, color 0.3s;
+}
+
+.btn.active,
+.btn:hover{
+    background: #c66461;
+    color: #fff;
+}

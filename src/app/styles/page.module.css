@@ -1,10 +1,10 @@
 .page{
   background-color: #FFE2BC;
-  height: 10000px;
+  height: 100%;
   width: 100%;
   z-index: 22;
   position: relative;
-  padding-top: 80px;
+  padding: 60px 0;
 }
 
 .decoration{
@@ -24,4 +24,29 @@
   margin-top: 20px;
   text-align: center;
   text-shadow: 2px 2px 4px #c66461;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: center;
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
+.main h2{
+  text-align: center;
+  color: #504F9D;
+  text-shadow: 2px 2px 4px #c66461;
+  font-size: 1.5rem;
+}
+
+.cards{
+  width: 100%;
+  margin: 0 auto;
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
 }
